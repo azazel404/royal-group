@@ -1,30 +1,25 @@
-import Image from 'next/image';
 const Footer = () => {
+	const d = new Date();
+	let year = d.getFullYear();
 	return (
 		<>
-			<div className='w-full min-h-[860px] md:min-h-[374px] lg:min-h-[374px] bg-primary'>
-				<footer className='w-full text-white'>
-					<div className='flex flex-col py-12 wrapper items-start md:flex-row'>
+			<div className='w-full h-[300px] md:h-[300px] lg:h-[300px]  relative'>
+				<div className='footer-page-cover'></div>
+				<footer className='w-full text-white relative z-30'>
+					<div className='flex flex-col py-12 wrapper items-start justify-between md:flex-row'>
 						<div className='flex-shrink-0  md:text-left w-full lg:w-[390px]'>
-							<div className='relative w-[350px] h-[46px] md:w-[390px] md:h-[47px]'>
-								<Image
-									src={'/images/logo-footer.svg'}
-									alt={'logo-footer'}
-									fill
-									style={{ objectFit: 'contain' }}
-									priority={true}
-								/>
-							</div>
-							<p className='mt-[18px] text-[20px] leading-[32px] text-gray'>
-								Leading the drive towards a net-zero future through transformative climate tech solutions.
-							</p>
+							<img className='h-[30px] md:h-[48px] w-auto' src='/images/logo-navbar.png' alt='' />
+							<p className='mt-[24px] text-[24px] lg:text-[38px] leading-[32px] text-gray'>© Royal Group {year}</p>
 						</div>
-						<div
-							className='flex flex-col items-start md:flex-row md:justify-between ml-0 md:ml-[70px] mt-10 md:mt-0'
-							style={{ flexGrow: 1 }}>
+						<div className='flex flex-col items-end md:flex-row md:justify-end  mt-10 md:mt-0'>
 							<div className='w-full'>
-								<h2 className='mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font'>Company</h2>
-								<nav className='mb-10 list-none'>
+								<h2 className='mb-3  font-bold tracking-widest text-white  text-[16px]  md:text-[40px] lg:text-[40px]'>
+									Address
+								</h2>
+								<p className='text-[12px] md:text-[20px] lg:text-[20px] text-gray'>
+									Office 88, 28 floor unit G-H Jl. Casablanca Raya KAV. 88 Jakarta Selatan 12870
+								</p>
+								{/* <nav className='mb-10 list-none'>
 									<li className='mt-3'>
 										<a className='text-gray cursor-pointer hover:text-gray-900'>UNDP</a>
 									</li>
@@ -37,9 +32,9 @@ const Footer = () => {
 									<li className='mt-3'>
 										<a className='text-gray cursor-pointer hover:text-gray-900'>Acid Mine Drainage</a>
 									</li>
-								</nav>
+								</nav> */}
 							</div>
-							<div className='w-full '>
+							{/* <div className='w-full '>
 								<h2 className='mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font'>Help</h2>
 								<nav className='mb-10 list-none'>
 									<li className='mt-3'>
@@ -49,8 +44,8 @@ const Footer = () => {
 										<a className='text-gray cursor-pointer hover:text-gray-900'>Terms of Use</a>
 									</li>
 								</nav>
-							</div>
-							<div className='w-full '>
+							</div> */}
+							{/* <div className='w-full '>
 								<h2 className='mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font'>Resources</h2>
 								<nav className='mb-10 list-none'>
 									<li className='mt-3'>
@@ -60,12 +55,8 @@ const Footer = () => {
 										<a className='text-gray cursor-pointer hover:text-gray-900'>ENTER@NATURESVAULT.IO</a>
 									</li>
 								</nav>
-							</div>
+							</div> */}
 						</div>
-					</div>
-					<div className='wrapper py-4 flex justify-between'>
-						<p className='text-sm text-gray capitalize'>Copyright © 2020 All rights reserved </p>
-						{/* <p className='text-sm text-gray capitalize'>Indonesia</p> */}
 					</div>
 				</footer>
 			</div>

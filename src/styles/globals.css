@@ -59,6 +59,19 @@ body {
     z-index: 1;
 }
 
+.footer-page-cover {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("/images/bg-footer.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 300px;
+    z-index: 1;
+}
+
 /* DETAIL PRODUCT */
 .digital-page-cover {
     position: absolute;

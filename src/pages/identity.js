@@ -1,11 +1,13 @@
-import Section1 from '@/modules/digital-transformation/section1';
-import Section2 from '@/modules/digital-transformation/section2';
-// import Footer from '@/components/layouts/footer';
+import Section1 from '@/modules/identity/section1';
+import Section2 from '@/modules/identity/section2';
+import Section3 from '@/modules/identity/section3';
+import Section4 from '@/modules/identity/section4';
+import Footer from '@/components/layouts/footer';
 import Meta from '@/components/metaseo';
 import { Urbanist } from 'next/font/google';
 const urbanist = Urbanist({ subsets: ['latin'], variable: '--font-urbanist' });
 
-export default function DigitalTransformation() {
+export default function Identity() {
 	const metas = {
 		title: 'Royal Group - Digital Transformation',
 		image: '/images/logo-navbar.png',
@@ -16,7 +18,9 @@ export default function DigitalTransformation() {
 				<Meta data={metas} />
 				<Section1 />
 				<Section2 />
-				{/* <Footer /> */}
+				<Section3 />
+				<Section4 />
+				<Footer />
 			</main>
 		</>
 	);

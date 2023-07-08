@@ -26,20 +26,20 @@ export default function Section2() {
 						// data-aos-anchor-placement='top-center'
 						className='relative w-[100%] h-[320px] lg:w-[100%] lg:h-[520px]'
 						style={{ zIndex: 1 }}>
-						<Image src={'/images/detail-product/digital-company.png'} alt='digital-company' fill priority={true} />
+						<Image src={'/images/detail-product/defense-company1.png'} alt='defense-company1' fill priority={true} />
 					</div>
 					<div className='pl-0 lg:pl-10 flex justify-center items-center '>
 						<div className='lg:max-w-3xl'>
-							<div className='relative w-[120px] h-[120px] md:w-[120px] md:h-[120px]'>
-								<Image src={'/images/section4/enuba-section4.png'} alt='isolation_mode-section2' fill priority={true} />
+							<div className='relative w-[350px] h-[72px] md:w-[350px] md:h-[72px]'>
+								<Image src={'/images/detail-product/defense-logo1.png'} alt='defense-logo1' fill priority={true} />
 							</div>
 							<p className='text-[32px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
-								EMPAT NUSA BANGSA
+								RADIKA KARYA UTAMA
 							</p>
 							<p className='text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
-								PT Empat Nusa Bangsa also known as ENUBA is a company engages in information technology that offer
-								comprehensive solutions for all business sectors. Our portfolio also includes state-of-the-art solutions
-								for start-ups, enterprises & government agencies or institutions.
+								Since inception in 1998, PT Radika Karya Utama has grown into a well-recognized provider of
+								infrastructure, advanced networking, unified communications, security, servers and hardware sales and
+								support, which aid our customers achieve their organizational target
 							</p>
 							<a href='#' className='text-white font-bold'>
 								Visit Website

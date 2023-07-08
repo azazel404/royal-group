@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { useMediaQuery } from 'react-responsive';
+import { useRouter } from 'next/router';
 
 export default function Section4() {
+	const router = useRouter();
 	const [isDesktopOrLaptop, setIsDesktopOrLaptop] = useState(false);
 
 	const desktopOrLaptop = useMediaQuery({
@@ -20,30 +22,35 @@ export default function Section4() {
 			name: 'Defense & Government Industry',
 			description: 'Massa elementum vestibulum cursus tortor pretium velit.',
 			image: '/images/section4/defence-industry.png',
+			link: '/defense-goverment-industry',
 		},
 		{
 			name: 'Healthcare',
 			description:
 				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
 			image: '/images/section4/healthcare.png',
+			link: '/healthcare',
 		},
 		{
 			name: 'Digital Transformations',
 			description:
 				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
 			image: '/images/section4/digital-transformation.png',
+			link: '/digital-transformation',
 		},
 		{
 			name: 'BlockChain',
 			description:
 				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
 			image: '/images/section4/blockchain.png',
+			link: '/blockchain',
 		},
 		{
 			name: 'Identity',
 			description:
 				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
 			image: '/images/section4/identity.png',
+			link: '/identity',
 		},
 	];
 
@@ -74,6 +81,8 @@ export default function Section4() {
 							return (
 								<div
 									key={index}
+									style={{ cursor: 'pointer' }}
+									onClick={() => router.push(item.link)}
 									className='p-[30px] flex flex-col justify-end  w-[100%] lg:w-[530px] h-[410px] relative  lg:mr-[32px] mb-[32px] '>
 									<div className='absolute w-[100%] h-[100%] lg:w-[530px] lg:h-[410px] top-0 left-0 right-0 bottom-0'>
 										<div className='relative' style={{ width: '100%', height: '100%', zIndex: 1 }}>
