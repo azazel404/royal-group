@@ -2,7 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    scrollbar-color: #a8bbbf #fafafb;
+    scrollbar-width: thin;
+    box-sizing: border-box;
+}
+
 :root {
+    --animate-delay: 0.5s;
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -14,14 +30,164 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
+    /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow-x: hidden;
+    /* background-color: #0D1D35; */
+}
+
+.home-first-page-cover {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("/images/section1/background-hero.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 640px;
+    z-index: 1;
+}
+
+/* DETAIL PRODUCT */
+.digital-page-cover {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("/images/detail-product/digital-bg-hero.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 640px;
+    z-index: 1;
+}
+
+.blockchain-page-cover {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("/images/detail-product/blockchain-bg-hero.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 640px;
+    z-index: 1;
+}
+
+.healthcare-page-cover {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("/images/detail-product/healthcare-bg-hero.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 640px;
+    z-index: 1;
+}
+
+.identity-page-cover {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("/images/detail-product/identity-bg-hero.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 640px;
+    z-index: 1;
+}
+
+.defense-page-cover {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("/images/detail-product/defense-bg-hero.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 640px;
+    z-index: 1;
+}
+
+/* END DETAIL PRODUCT */
+
+
+.text-gradient {
+    background: -webkit-linear-gradient(#FFFFFF, #FFFFFF, #7E7E7E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-gradient-cover {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: rgba(33, 33, 33, 0.60);
+    height: 727px;
+    z-index: 2;
+    /* min-height: calc(100vh - 86px); */
+    height: 640px;
+}
+
+.section4-gradient-cover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(33, 33, 33, 0.60);
+    z-index: 2;
+}
+
+.wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: calc(100% - 200px);
+}
+
+
+
+.p {
+    padding: 0;
+    margin: 0;
+}
+
+li::marker {
+    font-size: 7px;
+    vertical-align: middle;
+}
+
+.bg-slider {
+    background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%) !important;
+}
+
+.height-container-hero {
+    /* min-height: calc(100vh - 86px); */
+    height: 640px;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90vw;
+    }
+
+    /* .height-container-hero {
+        min-height: calc(100vh - 40px);
+    } */
 }
