@@ -22,6 +22,11 @@ export default function Section4() {
 			name: 'Defense & Government Industry',
 			description: 'Massa elementum vestibulum cursus tortor pretium velit.',
 			image: '/images/section4/defence-industry.png',
+			logo: {
+				path: '/images/detail-product/logo',
+				width: '100px',
+				height: '77px',
+			},
 			link: '/defense-goverment-industry',
 		},
 		{
@@ -29,6 +34,11 @@ export default function Section4() {
 			description:
 				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
 			image: '/images/section4/healthcare.png',
+			logo: {
+				path: '/images/detail-product/logo',
+				width: '100px',
+				height: '77px',
+			},
 			link: '/healthcare',
 		},
 		{
@@ -36,6 +46,11 @@ export default function Section4() {
 			description:
 				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
 			image: '/images/section4/digital-transformation.png',
+			logo: {
+				path: '/images/detail-product/logo',
+				width: '100px',
+				height: '77px',
+			},
 			link: '/digital-transformation',
 		},
 		{
@@ -43,6 +58,11 @@ export default function Section4() {
 			description:
 				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
 			image: '/images/section4/blockchain.png',
+			logo: {
+				path: '/images/detail-product/logo',
+				width: '100px',
+				height: '77px',
+			},
 			link: '/blockchain',
 		},
 		{
@@ -50,6 +70,11 @@ export default function Section4() {
 			description:
 				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
 			image: '/images/section4/identity.png',
+			logo: {
+				path: '/images/detail-product/logo',
+				width: '100px',
+				height: '77px',
+			},
 			link: '/identity',
 		},
 	];
@@ -76,7 +101,7 @@ export default function Section4() {
 					<p className='text-[24px] z-10 md:text-[24px] lg:text-[48px] xl:text-[48px] 2xl:text-[48px] mt-2 font-bold tracking-tight text-gradient'>
 						We Are Royal Group
 					</p>
-					<div className='mt-10 flex flex-col lg:flex-row lg:flex-wrap'>
+					<div className='mt-10 flex flex-col lg:flex-row lg:flex-wrap max-w-screen-2xl'>
 						{features.map((item, index) => {
 							return (
 								<div
@@ -86,13 +111,7 @@ export default function Section4() {
 									className='p-[30px] flex flex-col justify-end  w-[100%] lg:w-[530px] h-[410px] relative  lg:mr-[32px] mb-[32px] '>
 									<div className='absolute w-[100%] h-[100%] lg:w-[530px] lg:h-[410px] top-0 left-0 right-0 bottom-0'>
 										<div className='relative' style={{ width: '100%', height: '100%', zIndex: 1 }}>
-											<Image
-												src={item.image}
-												alt={`section4-${item.name}`}
-												// style={{ objectFit: 'contain ' }}
-												fill
-												priority={true}
-											/>
+											<img src={item.image} alt={`section4-${item.name}`} style={{ width: '100%', height: '100%' }} />
 										</div>
 									</div>
 									<div className='section4-gradient-cover w-[100%] h-[100%] '></div>
@@ -120,8 +139,8 @@ export default function Section4() {
 			</div>
 			{checkIsDesktopOrLaptop && (
 				<div className='absolute bottom-[0px] right-[0px]'>
-					<div className='relative w-[400px] h-[400px] md:w-[610px] md:h-[600px]'>
-						<Image
+					<div className='relative  h-full w-full'>
+						<img
 							src={'/images/section4/isolate-mode-right.png'}
 							alt='isolation-right_mode-section4'
 							fill

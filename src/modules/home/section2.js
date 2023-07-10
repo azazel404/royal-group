@@ -3,6 +3,16 @@ import Image from 'next/image';
 export default function Section2() {
 	return (
 		<div className='bg-primary relative'>
+			<div className='absolute top-[-20px] lg:top-[-20px] left-[0] lg:left-[0]'>
+				<div className='relative h-full w-full'>
+					<img
+						src={'/images/detail-product/Isolation_mode-top.png'}
+						alt='isolation_mode-detail-top-product'
+						fill
+						priority={true}
+					/>
+				</div>
+			</div>
 			<div className='overflow-hidden wrapper pt-[60px]'>
 				<div className='mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2'>
 					<div className='lg:pr-8 flex justify-center items-center '>
@@ -26,7 +36,7 @@ export default function Section2() {
 							</p>
 						</div>
 					</div>
-					<div className='flex justify-center items-center relative'>
+					<div className='flex justify-center lg:justify-end items-center relative'>
 						<div
 							// data-aos='zoom-in'
 							// data-aos-offset='200'
@@ -36,15 +46,15 @@ export default function Section2() {
 							// data-aos-mirror='true'
 							// data-aos-once='true'
 							// data-aos-anchor-placement='top-center'
-							className='relative w-[400px] h-[400px] md:w-[600px] md:h-[600px]'
+							className='relative w-[350px] h-[350px] md:w-[460px] md:h-[460px] lg:w-[560px] lg:h-[560px] xl:w-[660px] xl:h-[660px]'
 							style={{ zIndex: 1 }}>
 							<Image src={'/images/section2/female-vr.png'} alt='female-vr' fill priority={true} />
 						</div>
 					</div>
 				</div>
 			</div>
-			<div className='absolute top-[678px] lg:top-[168px] right-[4px] lg:right-[24px]'>
-				<div className='relative w-[400px] h-[400px] md:w-[650px] md:h-[500px]'>
+			<div className='absolute top-[640px] lg:top-[100px] 2xl:top-[200px] right-[4px] lg:right-[0px]'>
+				<div className='relative w-[380px] h-[380px] md:w-[750px] md:h-[614px]'>
 					<Image
 						src={'/images/section2/isolation_mode-section2.png'}
 						alt='isolation_mode-section2'
