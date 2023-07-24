@@ -77,6 +77,18 @@ export default function Section4() {
 			},
 			link: '/identity',
 		},
+		{
+			name: 'Lifestyle',
+			description:
+				'We hope to cater to individuals desire for personal expression, well being, and experience that enhance their quality of life as the lifestyle industry emerged as a dynamic and influential sector in our daily lives',
+			image: '/images/section4/lifestyle.png',
+			logo: {
+				path: '/images/detail-product/logo',
+				width: '100px',
+				height: '77px',
+			},
+			link: '/identity',
+		},
 	];
 
 	return (
@@ -101,7 +113,7 @@ export default function Section4() {
 					<p className='text-[24px] z-10 md:text-[24px] lg:text-[48px] xl:text-[48px] 2xl:text-[48px] mt-2 font-bold tracking-tight text-gradient'>
 						We Are Royal Group
 					</p>
-					<div className='mt-10 flex flex-col lg:flex-row lg:flex-wrap max-w-screen-2xl'>
+					<div className='mt-10 flex flex-col lg:flex-row flex-wrap'>
 						{features.map((item, index) => {
 							return (
 								<div

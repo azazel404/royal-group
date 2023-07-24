@@ -13,9 +13,9 @@ module.exports = {
 				sans: ['var(--font-urbanist)'],
 			},
 			screens: {
-				xxxs: '310px',
-				xxs: '350px',
-				xxs: '340px',
+				xxxs: '360px',
+				xxs: '375px',
+				xs: '390px',
 				sm: '410px',
 				// => @media (min-width: 640px) { ... }
 
