@@ -13,9 +13,9 @@ export default function Section2() {
 					/>
 				</div>
 			</div> */}
-			<div className='overflow-hidden wrapper pt-[60px] min-h-[910px] lg:min-h-[640px]'>
+			<div className='overflow-hidden wrapper pt-[90px] min-h-[910px] lg:min-h-[640px]'>
 				<div className='mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2'>
-					<div className='lg:pr-8 flex justify-center items-center '>
+					<div className='lg:pr-8 flex  items-center '>
 						<div className='lg:max-w-3xl'>
 							<p className='font-[400px] text-[24px] text-white'>About Us</p>
 							<p className='text-[24px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
@@ -24,19 +24,21 @@ export default function Section2() {
 							<p className='text-[24px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-gradient mb-[24px]'>
 								Business Partners
 							</p>
-							<p className='text-[18px] text-white font-[200] mb-[26px] leading-[160%]'>
-								Royal Group was established in Jakarta on September 2013 The company's creation resulted from a synergy
-								of long-time business partners who decided to team up to offer their customers a more comprehensive
-								solution to their needs
-							</p>
-							<p className='text-[18px] text-white font-[200] leading-[160%]'>
-								Royal Group owns and operates subsidiaries that cover several segments, which include Radika Karya
-								Utama, Royal Anram Industries, Fazza Royal Yantasir Simulasi, Interbio, Royal Garuda Meta Semesta,
-								Cakrawala Data Integrasi, and Asa Ren.
-							</p>
+							<div className='max-w-[600px]'>
+								<p className='text-[18px] text-white font-[200] mb-[26px] leading-[160%]'>
+									Royal Group was established in Jakarta on September 2013 The company's creation resulted from a
+									synergy of long-time business partners who decided to team up to offer their customers a more
+									comprehensive solution to their needs.
+								</p>
+								<p className='text-[18px] text-white font-[200] leading-[160%]'>
+									Royal Group owns and operates subsidiaries that cover several segments, which include Radika Karya
+									Utama, Royal Anram Industries, Fazza Royal Yantasir Simulasi, Interbio, Royal Garuda Meta Semesta,
+									Cakrawala Data Integrasi, and Asa Ren.
+								</p>
+							</div>
 						</div>
 					</div>
-					<div className='absolute top-[592px] xxxs:top-[619px] xxs:top-[605px] xs:top-[594px] sm:top-[574px] lg:top-[67px] 2xl:top-[200px] right-[4px] lg:right-[0px]'>
+					<div className='absolute top-[592px] xxxs:top-[619px] xxs:top-[605px] xs:top-[594px] sm:top-[574px] lg:top-[67px] 2xl:top-[66px] right-[4px] lg:right-[0px]'>
 						<div
 							// data-aos='zoom-in'
 							// data-aos-offset='200'

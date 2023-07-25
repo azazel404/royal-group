@@ -20,7 +20,8 @@ export default function Section4() {
 	const features = [
 		{
 			name: 'Defense & Government Industry',
-			description: 'Massa elementum vestibulum cursus tortor pretium velit.',
+			description:
+				'In an ever-changing global landscape, defense and security play vital roles in safeguarding nations and ensuring the well being of their citizens. We act as a one stop solution regarding defense and security providing what it is that matters in this field',
 			image: '/images/section4/defence-industry.png',
 			logo: {
 				path: '/images/detail-product/logo',
@@ -32,7 +33,7 @@ export default function Section4() {
 		{
 			name: 'Healthcare',
 			description:
-				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
+				'Healthcare plays a pivotal role in promoting and preserving the well-being of individuals and societies.Our services comes with a wide range of services aimed at preventing, diagnosing, and managing diseases, as well as promoting overall health.',
 			image: '/images/section4/healthcare.png',
 			logo: {
 				path: '/images/detail-product/logo',
@@ -44,7 +45,7 @@ export default function Section4() {
 		{
 			name: 'Digital Transformations',
 			description:
-				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
+				'We take part in digital transformation industry because it has become an integral part of our society, driving innovation, enhancing efficiency, and transforming the way we live and work.It offers immense potential for business to thrive, enables individuals to access new opportunities, and empowers governments to deliver public services with more effect',
 			image: '/images/section4/digital-transformation.png',
 			logo: {
 				path: '/images/detail-product/logo',
@@ -56,7 +57,7 @@ export default function Section4() {
 		{
 			name: 'BlockChain',
 			description:
-				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
+				'With the purpose of unlocking the full potential of blockchain technology, we plunged into the industry by delivering its immense potential and promise for revolutionizing various business sectors',
 			image: '/images/section4/blockchain.png',
 			logo: {
 				path: '/images/detail-product/logo',
@@ -68,7 +69,7 @@ export default function Section4() {
 		{
 			name: 'Identity',
 			description:
-				'Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium velit.',
+				'Advancements in identity technology such as biometrics to decentralized identity platforms, hungers the needs for robust and secure identity systems. We strive to revolutionize the way individuals established and manage their digital identities',
 			image: '/images/section4/identity.png',
 			logo: {
 				path: '/images/detail-product/logo',
@@ -94,14 +95,9 @@ export default function Section4() {
 	return (
 		<div className='bg-primary relative'>
 			{checkIsDesktopOrLaptop && (
-				<div className='absolute top-[0px] left-[0px]'>
-					<div className='relative w-[400px] h-[400px] md:w-[610px] md:h-[600px]'>
-						<Image
-							src={'/images/section4/isolate-mode-left.png'}
-							alt='isolation-left_mode-section4'
-							fill
-							priority={true}
-						/>
+				<div className='absolute top-[110px] right-[0px]'>
+					<div className='relative w-full h-full'>
+						<img src={'/images/section4/clippath.svg'} alt='isolation-left_mode-section4' fill priority={true} />
 					</div>
 				</div>
 			)}
@@ -120,7 +116,7 @@ export default function Section4() {
 									key={index}
 									style={{ cursor: 'pointer' }}
 									onClick={() => router.push(item.link)}
-									className='p-[30px] flex flex-col justify-end  w-[100%] lg:w-[530px] h-[410px] relative  lg:mr-[32px] mb-[32px] '>
+									className='p-[30px] flex flex-col justify-end  w-[100%] h-[350px] lg:w-[530px] lg:h-[410px] relative  lg:mr-[32px] mb-[32px] '>
 									<div className='absolute w-[100%] h-[100%] lg:w-[530px] lg:h-[410px] top-0 left-0 right-0 bottom-0'>
 										<div className='relative' style={{ width: '100%', height: '100%', zIndex: 1 }}>
 											<img src={item.image} alt={`section4-${item.name}`} style={{ width: '100%', height: '100%' }} />
@@ -139,7 +135,7 @@ export default function Section4() {
 										<p className='text-[20px] md:text-[24px] lg:text-[36px] xl:text-[36px] 2xl:text-[36px] mt-2 mb-4 font-bold tracking-tight text-white'>
 											{item.name}
 										</p>
-										<p className='text-[16px] lg:text-[20px] xl:text-[20px] 2xl:text-[20px] text-white'>
+										<p className='line-clamp-3 text-[12px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px] text-white'>
 											{item.description}
 										</p>
 									</div>
@@ -149,7 +145,7 @@ export default function Section4() {
 					</div>
 				</div>
 			</div>
-			{checkIsDesktopOrLaptop && (
+			{/* {checkIsDesktopOrLaptop && (
 				<div className='absolute bottom-[0px] right-[0px]'>
 					<div className='relative  h-full w-full'>
 						<img
@@ -160,7 +156,7 @@ export default function Section4() {
 						/>
 					</div>
 				</div>
-			)}
+			)} */}
 		</div>
 	);
 }

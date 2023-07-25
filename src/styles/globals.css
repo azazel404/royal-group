@@ -200,6 +200,19 @@ li::marker {
         max-width: 90vw;
     }
 
+    .home-first-page-cover {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        background-color: #fff;
+        background-image: url("/images/section1/bg-hero-mobile.png");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        height: 640px;
+        z-index: 1;
+    }
+
     /* .height-container-hero {
         min-height: calc(100vh - 40px);
     } */
