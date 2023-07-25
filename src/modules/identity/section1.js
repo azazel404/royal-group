@@ -25,8 +25,9 @@ export default function Section1() {
 						</div>
 						<div className='flex text-[12px] text-center md:text-[24px] lg:text-[24px] xl:text-[24px] 2xl:text-[24px]'>
 							<span className='text-white'>
-								Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium
-								velit.{' '}
+								Advancements in identity technology such as biometrics to decentralized identity platforms, hungers the
+								needs for robust and secure identity systems. We strive to revolutionize the way individuals established
+								and manage their digital identities
 							</span>
 						</div>
 					</div>

@@ -25,8 +25,10 @@ export default function Section1() {
 						</div>
 						<div className='flex text-[12px] text-center md:text-[24px] lg:text-[24px] xl:text-[24px] 2xl:text-[24px]'>
 							<span className='text-white'>
-								Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium
-								velit.{' '}
+								We take part in digital transformation industry because it has become an integral part of our society,
+								driving innovation, enhancing efficiency, and transforming the way we live and work.It offers immense
+								potential for business to thrive, enables individuals to access new opportunities, and empowers
+								governments to deliver public services with more effect
 							</span>
 						</div>
 					</div>

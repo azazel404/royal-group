@@ -19,12 +19,12 @@ export default function Section4() {
 	const checkIsDesktopOrLaptop = isDesktopOrLaptop ? desktopOrLaptop : true;
 	const features = [
 		{
-			name: 'Defense & Government Industry',
+			name: 'Defense & Security',
 			description:
 				'In an ever-changing global landscape, defense and security play vital roles in safeguarding nations and ensuring the well being of their citizens. We act as a one stop solution regarding defense and security providing what it is that matters in this field',
 			image: '/images/section4/defence-industry.png',
 			logo: {
-				path: '/images/detail-product/logo',
+				path: '/images/detail-product/defense-logo1.png',
 				width: '100px',
 				height: '77px',
 			},
@@ -36,7 +36,7 @@ export default function Section4() {
 				'Healthcare plays a pivotal role in promoting and preserving the well-being of individuals and societies.Our services comes with a wide range of services aimed at preventing, diagnosing, and managing diseases, as well as promoting overall health.',
 			image: '/images/section4/healthcare.png',
 			logo: {
-				path: '/images/detail-product/logo',
+				path: '/images/detail-product/healthcare-logo.png',
 				width: '100px',
 				height: '77px',
 			},
@@ -48,7 +48,7 @@ export default function Section4() {
 				'We take part in digital transformation industry because it has become an integral part of our society, driving innovation, enhancing efficiency, and transforming the way we live and work.It offers immense potential for business to thrive, enables individuals to access new opportunities, and empowers governments to deliver public services with more effect',
 			image: '/images/section4/digital-transformation.png',
 			logo: {
-				path: '/images/detail-product/logo',
+				path: '/images/section4/enuba-section4.png',
 				width: '100px',
 				height: '77px',
 			},
@@ -60,7 +60,7 @@ export default function Section4() {
 				'With the purpose of unlocking the full potential of blockchain technology, we plunged into the industry by delivering its immense potential and promise for revolutionizing various business sectors',
 			image: '/images/section4/blockchain.png',
 			logo: {
-				path: '/images/detail-product/logo',
+				path: '/images/detail-product/blockchain-logo.png',
 				width: '100px',
 				height: '77px',
 			},
@@ -72,7 +72,7 @@ export default function Section4() {
 				'Advancements in identity technology such as biometrics to decentralized identity platforms, hungers the needs for robust and secure identity systems. We strive to revolutionize the way individuals established and manage their digital identities',
 			image: '/images/section4/identity.png',
 			logo: {
-				path: '/images/detail-product/logo',
+				path: '/images/detail-product/identity-logo1.png',
 				width: '100px',
 				height: '77px',
 			},
@@ -84,7 +84,7 @@ export default function Section4() {
 				'We hope to cater to individuals desire for personal expression, well being, and experience that enhance their quality of life as the lifestyle industry emerged as a dynamic and influential sector in our daily lives',
 			image: '/images/section4/lifestyle.png',
 			logo: {
-				path: '/images/detail-product/logo',
+				path: '/images/section4/enuba-section4.png',
 				width: '100px',
 				height: '77px',
 			},
@@ -124,13 +124,8 @@ export default function Section4() {
 									</div>
 									<div className='section4-gradient-cover w-[100%] h-[100%] '></div>
 									<div className='relative' style={{ zIndex: 1000 }}>
-										<div className='relative w-[100px] h-[100px] md:w-[100px] md:h-[100px]'>
-											<Image
-												src={'/images/section4/enuba-section4.png'}
-												alt='isolation_mode-section2'
-												fill
-												priority={true}
-											/>
+										<div className='relative w-[100%] h-[auto] md:w-[100%] md:h-[auto]'>
+											<img src={item.logo.path} alt='isolation_mode-section2' fill priority={true} />
 										</div>
 										<p className='text-[20px] md:text-[24px] lg:text-[36px] xl:text-[36px] 2xl:text-[36px] mt-2 mb-4 font-bold tracking-tight text-white'>
 											{item.name}

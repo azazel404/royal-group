@@ -25,8 +25,9 @@ export default function Section1() {
 						</div>
 						<div className='flex text-[12px] text-center md:text-[24px] lg:text-[24px] xl:text-[24px] 2xl:text-[24px]'>
 							<span className='text-white'>
-								Rhoncus eu purus et dictum augue ut augue quis sed. Massa elementum vestibulum cursus tortor pretium
-								velit.{' '}
+								Healthcare plays a pivotal role in promoting and preserving the well-being of individuals and
+								societies.Our services comes with a wide range of services aimed at preventing, diagnosing, and managing
+								diseases, as well as promoting overall health.
 							</span>
 						</div>
 					</div>

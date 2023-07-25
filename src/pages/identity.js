@@ -9,7 +9,7 @@ const urbanist = Urbanist({ subsets: ['latin'], variable: '--font-urbanist' });
 
 export default function Identity() {
 	const metas = {
-		title: 'Royal Group - Digital Transformation',
+		title: 'Royal Group - Identity',
 		image: '/images/logo-navbar.png',
 	};
 	return (
