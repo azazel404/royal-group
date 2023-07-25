@@ -35,7 +35,7 @@ export default function Section1() {
 							<span className='text-gradient'>Expertise</span>
 						</div>
 					</div>
-					<div className='flex lg:grow-[1] flex-row justify-center mt-4 lg:mt-20'>
+					{/* <div className='flex lg:grow-[1] flex-row justify-center mt-4 lg:mt-20'>
 						<div className='flex flex-col items-center justify-center text-white bg-white  w-[120px] h-[120px] lg:w-[200px] lg:h-[200px] shadow-sm hover:bg-white rounded-[50%]'>
 							<div
 								className='w-[30px] h-[30px] lg:w-[70px] lg:h-[70px] flex flex-col justify-center items-center rounded-[50%] mb-4'
@@ -52,7 +52,7 @@ export default function Section1() {
 							<span className='text-[12px] md:text-[24px] lg:text-[24px] font-bold text-black'>About Us</span>
 							<span className='text-[10px] md:text-[12px] lg:text-[18px]  text-black'>15mins</span>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</>
