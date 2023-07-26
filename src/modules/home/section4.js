@@ -24,11 +24,35 @@ export default function Section4() {
 				'In an ever-changing global landscape, defense and security play vital roles in safeguarding nations and ensuring the well being of their citizens. We act as a one stop solution regarding defense and security providing what it is that matters in this field',
 			image: '/images/section4/defence-industry.png',
 			logo: {
-				path: '/images/detail-product/defense-logo1.png',
+				path: '/images/section4/logo1.png',
 				width: '100px',
 				height: '77px',
 			},
 			link: '/defense-goverment-industry',
+		},
+		{
+			name: 'BlockChain',
+			description:
+				'With the purpose of unlocking the full potential of blockchain technology, we plunged into the industry by delivering its immense potential and promise for revolutionizing various business sectors',
+			image: '/images/section4/blockchain.png',
+			logo: {
+				path: '/images/detail-product/blockchain-logo.png',
+				width: '100px',
+				height: '77px',
+			},
+			link: '/blockchain',
+		},
+		{
+			name: 'Identity',
+			description:
+				'Advancements in identity technology such as biometrics to decentralized identity platforms, hungers the needs for robust and secure identity systems. We strive to revolutionize the way individuals established and manage their digital identities',
+			image: '/images/section4/identity.png',
+			logo: {
+				path: '/images/section4/logo2.png',
+				width: '100px',
+				height: '77px',
+			},
+			link: '/identity',
 		},
 		{
 			name: 'Healthcare',
@@ -54,30 +78,7 @@ export default function Section4() {
 			},
 			link: '/digital-transformation',
 		},
-		{
-			name: 'BlockChain',
-			description:
-				'With the purpose of unlocking the full potential of blockchain technology, we plunged into the industry by delivering its immense potential and promise for revolutionizing various business sectors',
-			image: '/images/section4/blockchain.png',
-			logo: {
-				path: '/images/detail-product/blockchain-logo.png',
-				width: '100px',
-				height: '77px',
-			},
-			link: '/blockchain',
-		},
-		{
-			name: 'Identity',
-			description:
-				'Advancements in identity technology such as biometrics to decentralized identity platforms, hungers the needs for robust and secure identity systems. We strive to revolutionize the way individuals established and manage their digital identities',
-			image: '/images/section4/identity.png',
-			logo: {
-				path: '/images/detail-product/identity-logo1.png',
-				width: '100px',
-				height: '77px',
-			},
-			link: '/identity',
-		},
+
 		{
 			name: 'Lifestyle',
 			description:
@@ -88,7 +89,7 @@ export default function Section4() {
 				width: '100px',
 				height: '77px',
 			},
-			link: '/identity',
+			link: '/#',
 		},
 	];
 

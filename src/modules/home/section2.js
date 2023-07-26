@@ -13,9 +13,9 @@ export default function Section2() {
 					/>
 				</div>
 			</div> */}
-			<div className='overflow-hidden wrapper pt-[90px] min-h-[908px] lg:min-h-[640px]'>
+			<div className='overflow-hidden  pt-[90px] min-h-[908px] lg:min-h-[640px]'>
 				<div className='mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2'>
-					<div className='lg:pr-8 flex  items-center '>
+					<div className='lg:pr-8 flex  items-center wrapper '>
 						<div className='lg:max-w-3xl'>
 							<p className='font-[400px] text-[24px] text-white'>About Us</p>
 							<p className='text-[24px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
@@ -38,7 +38,7 @@ export default function Section2() {
 							</div>
 						</div>
 					</div>
-					<div className='absolute top-[592px] xxxs:top-[619px] xxs:top-[605px] xs:top-[594px] sm:top-[568px] lg:top-[67px] 2xl:top-[66px] right-[4px] lg:right-[0px]'>
+					<div className='relative lg:absolute lg:top-[67px] 2xl:top-[66px] right-[4px] lg:right-[0px]'>
 						<div
 							// data-aos='zoom-in'
 							// data-aos-offset='200'
