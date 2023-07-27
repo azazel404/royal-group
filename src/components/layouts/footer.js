@@ -17,7 +17,10 @@ const Footer = () => {
 									Address
 								</h2>
 								<p className='text-[12px] md:text-[20px] lg:text-[20px] text-gray'>
-									Office 88, 28 floor unit G-H Jl. Casablanca Raya KAV. 88 Jakarta Selatan 12870
+									⦁ EIGHTY EIGHT @KASABLANKA OFFICE TOWER, 3rd FLOOR UNIT B, JALAN CASABLANCA RAYA KAV 88.
+								</p>
+								<p className='text-[12px] md:text-[20px] lg:text-[20px] text-gray'>
+									⦁ EIGHTY EIGHT @KASABLANKA OFFICE TOWER, 28TH FLOOR UNIT G-H, JALAN CASABLANCA RAYA KAV 88.
 								</p>
 								{/* <nav className='mb-10 list-none'>
 									<li className='mt-3'>

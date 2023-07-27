@@ -89,7 +89,7 @@ export default function Section4() {
 				width: '100px',
 				height: '77px',
 			},
-			link: '/#',
+			link: '/#lifestyle',
 		},
 	];
 
@@ -108,14 +108,14 @@ export default function Section4() {
 						Royal Group
 					</p>
 					<p className='text-[24px] z-10 md:text-[24px] lg:text-[48px] xl:text-[48px] 2xl:text-[48px] mt-2 font-bold tracking-tight text-gradient'>
-						We Are Royal Group
+						Our Companies
 					</p>
 					<div className='mt-10 flex flex-col lg:flex-row flex-wrap'>
 						{features.map((item, index) => {
 							return (
 								<div
 									key={index}
-									style={{ cursor: 'pointer' }}
+									style={{ cursor: item.link === '/#lifestyle' ? 'default' : 'pointer' }}
 									onClick={() => router.push(item.link)}
 									className='p-[30px] flex flex-col justify-end  w-[100%] h-[350px] lg:w-[530px] lg:h-[410px] relative  lg:mr-[32px] mb-[32px] '>
 									<div className='absolute w-[100%] h-[100%] lg:w-[530px] lg:h-[410px] top-0 left-0 right-0 bottom-0'>

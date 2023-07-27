@@ -19,11 +19,11 @@ export default function Section2() {
 						<div className='lg:max-w-3xl'>
 							<p className='font-[400px] text-[24px] text-white'>About Us</p>
 							<p className='text-[24px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
-								We Are From The Collaboration
+								Achieving Excellence through Collaboration
 							</p>
-							<p className='text-[24px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-gradient mb-[24px]'>
+							{/* <p className='text-[24px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-gradient mb-[24px]'>
 								Business Partners
-							</p>
+							</p> */}
 							<div className='max-w-[600px]'>
 								<p className='text-[18px] text-white font-[200] mb-[26px] leading-[160%]'>
 									Royal Group was established in Jakarta on September 2013 The company's creation resulted from a
@@ -31,9 +31,8 @@ export default function Section2() {
 									comprehensive solution to their needs.
 								</p>
 								<p className='text-[18px] text-white font-[200] leading-[160%]'>
-									Royal Group owns and operates subsidiaries that cover several segments, which include Radika Karya
-									Utama, Royal Anram Industries, Fazza Royal Yantasir Simulasi, Interbio, Royal Garuda Meta Semesta,
-									Cakrawala Data Integrasi, and Asa Ren.
+									Royal Group owns and operates subsidiaries that cover several industries such as Defense and Security,
+									Healthcare, Digital Transformation, Blockchain, Identity, and Lifestyle.
 								</p>
 							</div>
 						</div>

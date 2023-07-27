@@ -17,9 +17,9 @@ export default function Section2() {
 		<div className='bg-white relative'>
 			<div className='overflow-hidden wrapper py-[80px]'>
 				<div className='flex flex-col md:flex-row 2xl:justify-around  relative' style={{ zIndex: 1 }}>
-					<div className='shrink-0 pr-[0px] md:pr-[126px] lg:pr-[126px] mb-[20px] md:mb-[0px] lg:mb-[0px]'>
+					{/* <div className='shrink-0 pr-[0px] md:pr-[126px] lg:pr-[126px] mb-[20px] md:mb-[0px] lg:mb-[0px]'>
 						<p className='font-bold text-[24px] 2xl:text-[32px] text-center md:text-start lg:text-start'>Our Ideas</p>
-					</div>
+					</div> */}
 					<div className='grid items-center gap-12  grid-cols-1 md:grid-cols-2'>
 						<div
 							className='p-[30px] rounded-[24px]'
@@ -31,8 +31,8 @@ export default function Section2() {
 								Our Vision
 							</p>
 							<p className='text-[16px] lg:text-[24px] xl:text-[24px] 2xl:text-[24px] leading-[39px] text-black'>
-								To be leader, build robust and outstandingsolutions, and achieve beyond limits in thetechnology and
-								manufacturing industries across the nation.
+								To be a leading company that builds robust and outstanding solutions across the worldwide nation, by
+								empowering lives and simplify futures.
 							</p>
 						</div>
 						<div
@@ -45,8 +45,8 @@ export default function Section2() {
 								Our Mission
 							</p>
 							<p className='text-[16px] lg:text-[24px] xl:text-[24px] 2xl:text-[24px] leading-[39px]  text-black'>
-								We are committed to ensuring that our subsidiaries can provide solutions that meet customers’
-								requirements and create a sustainable business environment for our subsidiaries.
+								We are committed to ensure our subsidiaries can provide solutions that meet customer’s requirements and
+								create a sustainable business environment.
 							</p>
 						</div>
 					</div>

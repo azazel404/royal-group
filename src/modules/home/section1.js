@@ -19,11 +19,6 @@ export default function Section1() {
 				<div className='home-gradient-cover'></div>
 
 				<div className='relative wrapper height-container-hero  py-18 lg:py-18  flex flex-col justify-center items-start md:flex-row md:justify-center md:items-center z-50'>
-					<div className='flex lg:grow-[1] flex-col min-h-0 lg:min-h-[30%]'>
-						<div className='text-[20px] md:text-[20px] lg:text-[24px] xl:text-[24px] 2xl:text-[24px]'>
-							<span className='text-white'>Introduce</span>
-						</div>
-					</div>
 					<div className='flex flex-col justify-center mb-4 lg:mb-[0] leading-relaxed lg:leading-normal'>
 						<div className='flex text-[30px] md:text-[30px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px]'>
 							<span className='text-white'>Empowering Progress</span>

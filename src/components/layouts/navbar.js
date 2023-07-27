@@ -4,11 +4,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 
 const navigation = [
-	{ name: 'Home', href: '#overview' },
-	{ name: 'About Us', href: '#nft' },
-	{ name: 'Group', href: '#roadmap' },
-	{ name: 'Experiences', href: '#how_it_works' },
-	{ name: 'Partners', href: '#about' },
+	{ name: 'Home', href: '#home' },
+	{ name: 'About Us', href: '#about-us' },
+	{ name: 'Group', href: '#group' },
+	{ name: 'Companies', href: '#companies' },
 	// {
 	// 	name: 'Litepaper',
 	// 	href: 'https://natures-vault.gitbook.io/naturesgold-token-and-pistol-lake-nft-litepaper/',
@@ -56,7 +55,7 @@ export default function Navbar() {
 						</div>
 						<div className='flex items-center'>
 							<a
-								href='https://share.hsforms.com/1Sxi4GQYJTKOnDkMwhBmv7gd42lt'
+								href='mailto:info@frys.co.id'
 								className='md:w-[50%] lg:w-auto  text-white  px-[24px] md:px-[24px]  py-[6px] md:py-[6px] border-2 border-white rounded-[50px]  font-semibold shadow-sm hover:bg-primary'>
 								<span className='text-[12px] md:text-[14px]  font-bold'>Contact Us</span>
 							</a>
