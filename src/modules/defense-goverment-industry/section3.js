@@ -18,7 +18,7 @@ export default function Section2() {
 								and technology. With the concept of Total Solution for simulations, we specialize in Advance Innovative
 								Simulation Technologies with advance simulation development platform.
 							</p>
-							<a href='#' className='text-white font-bold'>
+							<a href='https://frys.co.id/' className='text-white font-bold'>
 								Visit Website
 							</a>
 							<div class='w-[20px] border-t border-white mt-2'></div>

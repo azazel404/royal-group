@@ -54,7 +54,7 @@ export default function Section2() {
 								lifestyle based-genetic platform that focus on holistic approach on medical genetics and hope to give
 								everyone the opportunity to make the best choice in life
 							</p>
-							<a href='#' className='text-white font-bold'>
+							<a href='https://asaren.ai/' className='text-white font-bold'>
 								Visit Website
 							</a>
 							<div class='w-[20px] border-t border-black mt-2'></div>

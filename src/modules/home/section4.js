@@ -94,7 +94,7 @@ export default function Section4() {
 	];
 
 	return (
-		<div className='bg-primary relative'>
+		<div className='bg-primary relative' id='group'>
 			{checkIsDesktopOrLaptop && (
 				<div className='absolute top-[110px] right-[0px]'>
 					<div className='relative w-full h-full'>
@@ -102,7 +102,7 @@ export default function Section4() {
 					</div>
 				</div>
 			)}
-			<div id='nft' className='overflow-hidden wrapper'>
+			<div className='overflow-hidden wrapper' id='companies'>
 				<div className='pt-[120px] relative '>
 					<p className='text-[24px] z-10 md:text-[24px] lg:text-[32px] xl:text-[32px] 2xl:text-[32px] font-[200] tracking-tight text-white'>
 						Royal Group

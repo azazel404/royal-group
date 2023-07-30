@@ -49,7 +49,7 @@ export default function Section2() {
 								infrastructure, advanced networking, unified communications, security, servers and hardware sales and
 								support, which aid our customers achieve their organizational target
 							</p>
-							<a href='#' className='text-white font-bold'>
+							<a href='https://radika.co.id/' className='text-white font-bold'>
 								Visit Website
 							</a>
 							<div class='w-[20px] border-t border-white mt-2'></div>

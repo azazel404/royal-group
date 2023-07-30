@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Section2() {
 	return (
-		<div className='bg-primary relative'>
+		<div className='bg-primary relative' id='about-us'>
 			{/* <div className='absolute top-[-20px] lg:top-[-20px] left-[0] lg:left-[0]'>
 				<div className='relative h-full w-full'>
 					<img

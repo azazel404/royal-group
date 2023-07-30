@@ -20,7 +20,7 @@ export default function Section2() {
 								across domains and use-cases such as national ID, automated border control, finance & fintech,
 								healthcare and critical infrastructure access control
 							</p>
-							<a href='#' className='text-white font-bold'>
+							<a href='https://totmtechnologies.com/' className='text-white font-bold'>
 								Visit Website
 							</a>
 							<div class='w-[20px] border-t border-white mt-2'></div>

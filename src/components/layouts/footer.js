@@ -16,11 +16,11 @@ const Footer = () => {
 								<h2 className='mb-3  font-bold tracking-widest text-white  text-[16px]  md:text-[40px] lg:text-[40px]'>
 									Address
 								</h2>
-								<p className='text-[12px] md:text-[20px] lg:text-[20px] text-gray'>
+								{/* <p className='text-[12px] md:text-[20px] lg:text-[20px] text-gray'>
 									⦁ EIGHTY EIGHT @KASABLANKA OFFICE TOWER, 3rd FLOOR UNIT B, JALAN CASABLANCA RAYA KAV 88.
-								</p>
+								</p> */}
 								<p className='text-[12px] md:text-[20px] lg:text-[20px] text-gray'>
-									⦁ EIGHTY EIGHT @KASABLANKA OFFICE TOWER, 28TH FLOOR UNIT G-H, JALAN CASABLANCA RAYA KAV 88.
+									EIGHTY EIGHT @KASABLANKA OFFICE TOWER, 28TH FLOOR, JALAN CASABLANCA RAYA KAV 88.
 								</p>
 								{/* <nav className='mb-10 list-none'>
 									<li className='mt-3'>

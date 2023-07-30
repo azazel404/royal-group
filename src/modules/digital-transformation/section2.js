@@ -59,7 +59,7 @@ export default function Section2() {
 								comprehensive solutions for all business sectors. Our portfolio also includes state-of-the-art solutions
 								for start-ups, enterprises & government agencies or institutions.
 							</p>
-							<a href='#' className='text-white font-bold'>
+							<a href='https://www.empatnusabangsa.com/' className='text-white font-bold'>
 								Visit Website
 							</a>
 							<div class='w-[20px] border-t border-white mt-2'></div>

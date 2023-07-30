@@ -60,9 +60,9 @@ export default function Section2() {
 								state of the art AI technology that enables our clients to process customer onboarding in a more
 								seamless, less time consuming and more cost efficient way.
 							</p>
-							<a href='#' className='text-white font-bold'>
+							{/* <a href='#' className='text-white font-bold'>
 								Visit Website
-							</a>
+							</a> */}
 							<div class='w-[20px] border-t border-white mt-2'></div>
 						</div>
 					</div>

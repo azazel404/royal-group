@@ -39,7 +39,7 @@ export default function Section2() {
 								Indonesia and India, working together with partners from US, Europe and ASEAN. Our platforms are based
 								on core technologies like face, finger and iris biometrics listed in top tier in NIST benchmark.
 							</p>
-							<a href='#' className='text-white font-bold'>
+							<a href='https://interbio.id/' className='text-white font-bold'>
 								Visit Website
 							</a>
 							<div class='w-[20px] border-t border-white mt-2'></div>

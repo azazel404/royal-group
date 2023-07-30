@@ -55,7 +55,7 @@ export default function Section2() {
 								through partnership with top academia, Decentralized Finance Blockchains Entities (DeFi) and multiple
 								metaverse platforms to be able to reach the unreachable
 							</p>
-							<a href='#' className='text-white font-bold'>
+							<a href='https://garudaeleven.io/' className='text-white font-bold'>
 								Visit Website
 							</a>
 							<div class='w-[20px] border-t border-white mt-2'></div>

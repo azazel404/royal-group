@@ -38,9 +38,9 @@ export default function Section2() {
 								the small caliber ammunition factory by bringing foreign investors to invest in the defense industry of
 								Indonesia
 							</p>
-							<a href='#' className='text-white font-bold'>
+							{/* <a href='#' className='text-white font-bold'>
 								Visit Website
-							</a>
+							</a> */}
 							<div class='w-[20px] border-t border-white mt-2'></div>
 						</div>
 					</div>
