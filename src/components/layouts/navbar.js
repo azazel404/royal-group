@@ -4,10 +4,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 
 const navigation = [
-	{ name: 'Home', href: '#home' },
-	{ name: 'About Us', href: '#about-us' },
-	{ name: 'Group', href: '#group' },
-	{ name: 'Companies', href: '#companies' },
+	{ name: 'Home', href: '/#home' },
+	{ name: 'About Us', href: '/#about-us' },
+	{ name: 'Group of companies', href: '/#companies' },
 	// {
 	// 	name: 'Litepaper',
 	// 	href: 'https://natures-vault.gitbook.io/naturesgold-token-and-pistol-lake-nft-litepaper/',

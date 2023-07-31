@@ -1,14 +1,14 @@
-import Section1 from '@/modules/digital-transformation/section1';
-import Section2 from '@/modules/digital-transformation/section2';
-import Section3 from '@/modules/digital-transformation/section3';
+import Section1 from '@/modules/lifestyle/section1';
+import Section2 from '@/modules/lifestyle/section2';
+import Section3 from '@/modules/lifestyle/section3';
 import Footer from '@/components/layouts/footer';
 import Meta from '@/components/metaseo';
 import { Urbanist } from 'next/font/google';
 const urbanist = Urbanist({ subsets: ['latin'], variable: '--font-urbanist' });
 
-export default function DigitalTransformation() {
+export default function Lifestyle() {
 	const metas = {
-		title: 'Royal Group - Digital Transformation',
+		title: 'Royal Group - Lifestyle',
 		image: '/images/logo-navbar.png',
 	};
 	return (

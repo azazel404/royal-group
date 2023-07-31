@@ -33,7 +33,7 @@ export default function Section2() {
 							<p className='text-[16px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
 								INTERBIO
 							</p>
-							<p className='text-[14px] text-white font-[200] mb-[26px] leading-[160%]'>
+							<p className='text-[14px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
 								Identification, authentication, authorization interBIO is the leading identity management biometric
 								software solutions company with state of the art technology, robust platform and its core team in
 								Indonesia and India, working together with partners from US, Europe and ASEAN. Our platforms are based

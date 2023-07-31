@@ -138,6 +138,19 @@ body {
     z-index: 1;
 }
 
+.lifestyle-page-cover {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("/images/detail-product/lifestyle-bg-hero.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 640px;
+    z-index: 1;
+}
+
 /* END DETAIL PRODUCT */
 
 

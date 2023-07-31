@@ -12,7 +12,7 @@ export default function Section2() {
 							<p className='text-[16px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
 								FRYS
 							</p>
-							<p className='text-[14px] lg:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
+							<p className='text-[14px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] lg:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
 								PT. Fazza Royal Yantasir Simulasi is a dynamic, innovative and creative company based in Jakarta that
 								established in 2019 from a synergy of two business partners that have a lot of experience in simulation
 								and technology. With the concept of Total Solution for simulations, we specialize in Advance Innovative

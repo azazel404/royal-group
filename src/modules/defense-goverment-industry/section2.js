@@ -44,7 +44,7 @@ export default function Section2() {
 							<p className='text-[16px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
 								RADIKA KARYA UTAMA
 							</p>
-							<p className='text-[14px] lg:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
+							<p className='text-[14px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] lg:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
 								Since inception in 1998, PT Radika Karya Utama has grown into a well-recognized provider of
 								infrastructure, advanced networking, unified communications, security, servers and hardware sales and
 								support, which aid our customers achieve their organizational target

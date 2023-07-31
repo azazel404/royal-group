@@ -39,7 +39,7 @@ export default function Section2() {
 					<div className='flex justify-center items-center mt-8 lg:mt-0 '>
 						<div className='lg:max-w-3xl'>
 							<div className='relative h-full w-full'>
-								<Image
+								<img
 									src={'/images/detail-product/blockchain-logo.png'}
 									alt='isolation_mode-section2'
 									fill
@@ -49,7 +49,7 @@ export default function Section2() {
 							<p className='text-[16px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px]  font-bold tracking-tight text-white'>
 								Royal Garuda Meta Semesta
 							</p>
-							<p className='text-[14px] text-white font-[200] mb-[26px] leading-[160%]'>
+							<p className='text-[14px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
 								Combining the adoption of blockchain technology with e-sport gaming industry, RGMS works with various
 								sport associations in harnessing the power of blockchains technology to revolutionize the industry
 								through partnership with top academia, Decentralized Finance Blockchains Entities (DeFi) and multiple

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-export default function Section2() {
+export default function Section3() {
 	return (
 		<div className='bg-primary relative'>
 			<div className='overflow-hidden wrapper py-[60px]'>
@@ -7,20 +7,16 @@ export default function Section2() {
 					<div className='flex justify-start items-start '>
 						<div className='lg:max-w-3xl pr-0 lg:pr-10'>
 							<div className='relative h-full w-full'>
-								<img src={'/images/detail-product/identity-logo2.png'} alt='identity-logo2' fill priority={true} />
+								<img src={'/images/detail-product/digital-logo2.png'} alt='identity-logo2' fill priority={true} />
 							</div>
 							<p className='text-[16px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
-								TOTM
+								PT Teknologi Govirtual Indonesia
 							</p>
 							<p className='text-[14px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
-								TOTM Technologies provides end-to-end identity management and biometrics products, powering Digital
-								identity and Digital onboarding solutions. That includes NIST-rated core biometrics matching software
-								that is proven in ultra large scale identity deployments. Our in-house expertise comprises innovators,
-								disruptors and technologists providing best-of-breed, integrated and highly-scalable solutions that span
-								across domains and use-cases such as national ID, automated border control, finance & fintech,
-								healthcare and critical infrastructure access control
+								PT Teknologi GoVirtual Indonesia is a technology company focused on Virtual Reality, Augmented Reality,
+								and Virtual Exhibition from various industries.
 							</p>
-							<a href='https://totmtechnologies.com/' className='text-white font-bold'>
+							<a href='https://govirtual.id/web/' className='text-white font-bold'>
 								Visit Website
 							</a>
 							<div class='w-[20px] border-t border-white mt-2'></div>
@@ -39,7 +35,7 @@ export default function Section2() {
 							className=' flex relative h-full w-full'
 							style={{ zIndex: 1 }}>
 							<img
-								src={'/images/detail-product/identity-company2.png'}
+								src={'/images/detail-product/digital-company2.png'}
 								alt='identity-company2'
 								fill
 								priority={true}

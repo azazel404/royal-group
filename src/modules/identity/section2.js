@@ -52,17 +52,17 @@ export default function Section2() {
 								<img src={'/images/detail-product/identity-logo1.png'} alt='identity-logo1' fill priority={true} />
 							</div>
 							<p className='text-[16px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
-								PT Cakrawala Data Integrasi
+								Trustlink
 							</p>
-							<p className='text-[14px] text-white font-[200] mb-[26px] leading-[160%]'>
+							<p className='text-[14px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
 								Trustlink strives to empower your organization to accelerate its business growth by simplifying your
 								customer onboarding process. TrustLink offers biometrics based identity verification solutions driven by
 								state of the art AI technology that enables our clients to process customer onboarding in a more
 								seamless, less time consuming and more cost efficient way.
 							</p>
-							{/* <a href='#' className='text-white font-bold'>
+							<a href='https://www.withtrustlink.com/' className='text-white font-bold'>
 								Visit Website
-							</a> */}
+							</a>
 							<div class='w-[20px] border-t border-white mt-2'></div>
 						</div>
 					</div>

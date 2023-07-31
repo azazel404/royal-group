@@ -33,7 +33,7 @@ export default function Section2() {
 							<p className='text-[16px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
 								ROYAL ANRAM
 							</p>
-							<p className='text-[14px] lg:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
+							<p className='text-[14px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
 								PT Royal Anram Industries is a company associated with the Indonesian Ministry of Defense in building
 								the small caliber ammunition factory by bringing foreign investors to invest in the defense industry of
 								Indonesia

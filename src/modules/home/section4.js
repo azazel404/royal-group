@@ -89,12 +89,12 @@ export default function Section4() {
 				width: '100px',
 				height: '77px',
 			},
-			link: '/#lifestyle',
+			link: '/lifestyle',
 		},
 	];
 
 	return (
-		<div className='bg-primary relative' id='group'>
+		<div className='bg-primary relative' id='companies'>
 			{checkIsDesktopOrLaptop && (
 				<div className='absolute top-[110px] right-[0px]'>
 					<div className='relative w-full h-full'>
@@ -102,7 +102,7 @@ export default function Section4() {
 					</div>
 				</div>
 			)}
-			<div className='overflow-hidden wrapper' id='companies'>
+			<div className='overflow-hidden wrapper'>
 				<div className='pt-[120px] relative '>
 					<p className='text-[24px] z-10 md:text-[24px] lg:text-[32px] xl:text-[32px] 2xl:text-[32px] font-[200] tracking-tight text-white'>
 						Royal Group
@@ -117,8 +117,8 @@ export default function Section4() {
 									key={index}
 									style={{ cursor: item.link === '/#lifestyle' ? 'default' : 'pointer' }}
 									onClick={() => router.push(item.link)}
-									className='p-[30px] flex flex-col justify-end  w-[100%] h-[350px] lg:w-[530px] lg:h-[410px] relative  lg:mr-[32px] mb-[32px] '>
-									<div className='absolute w-[100%] h-[100%] lg:w-[530px] lg:h-[410px] top-0 left-0 right-0 bottom-0'>
+									className='p-[30px] flex flex-col justify-end  w-[100%] h-[350px] lg:w-[330px] xl:w-[430px] 2xl:w-[530px]  lg:h-[310px] xl:h-[410px] 2xl:h-[410px] relative  lg:mr-[32px] mb-[32px] '>
+									<div className='absolute w-[100%] h-[100%] lg:w-[330px] xl:w-[430px] 2xl:w-[530px]  lg:h-[310px] xl:h-[410px] 2xl:h-[410px] top-0 left-0 right-0 bottom-0'>
 										<div className='relative' style={{ width: '100%', height: '100%', zIndex: 1 }}>
 											<img src={item.image} alt={`section4-${item.name}`} style={{ width: '100%', height: '100%' }} />
 										</div>
@@ -128,7 +128,7 @@ export default function Section4() {
 										<div className='relative w-[100%] h-[auto] md:w-[100%] md:h-[auto]'>
 											<img src={item.logo.path} alt='isolation_mode-section2' fill priority={true} />
 										</div>
-										<p className='text-[20px] md:text-[24px] lg:text-[36px] xl:text-[36px] 2xl:text-[36px] mt-2 mb-4 font-bold tracking-tight text-white'>
+										<p className='text-[20px] md:text-[24px] lg:text-[20px] xl:text-[36px] 2xl:text-[36px] mt-2 mb-4 font-bold tracking-tight text-white'>
 											{item.name}
 										</p>
 										<p className='line-clamp-3 text-[12px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px] text-white'>

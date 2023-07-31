@@ -54,7 +54,7 @@ export default function Section2() {
 							<p className='text-[32px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
 								EMPAT NUSA BANGSA
 							</p>
-							<p className='text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
+							<p className='text-[14px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
 								PT Empat Nusa Bangsa also known as ENUBA is a company engages in information technology that offer
 								comprehensive solutions for all business sectors. Our portfolio also includes state-of-the-art solutions
 								for start-ups, enterprises & government agencies or institutions.
