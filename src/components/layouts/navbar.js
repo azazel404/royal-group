@@ -54,7 +54,7 @@ export default function Navbar() {
 						</div>
 						<div className='flex items-center'>
 							<a
-								href='mailto:info@frys.co.id'
+								href='mailto:info@royalcemerlang.com'
 								className='md:w-[50%] lg:w-auto  text-white  px-[24px] md:px-[24px]  py-[6px] md:py-[6px] border-2 border-white rounded-[50px]  font-semibold shadow-sm hover:bg-primary'>
 								<span className='text-[12px] md:text-[14px]  font-bold'>Contact Us</span>
 							</a>

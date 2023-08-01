@@ -72,7 +72,7 @@ export default function Section4() {
 				'We take part in digital transformation industry because it has become an integral part of our society, driving innovation, enhancing efficiency, and transforming the way we live and work.It offers immense potential for business to thrive, enables individuals to access new opportunities, and empowers governments to deliver public services with more effect',
 			image: '/images/section4/digital-transformation.png',
 			logo: {
-				path: '/images/section4/enuba-section4.png',
+				path: '/images/section4/logo4.png',
 				width: '100px',
 				height: '77px',
 			},
@@ -85,7 +85,7 @@ export default function Section4() {
 				'We hope to cater to individuals desire for personal expression, well being, and experience that enhance their quality of life as the lifestyle industry emerged as a dynamic and influential sector in our daily lives',
 			image: '/images/section4/lifestyle.png',
 			logo: {
-				path: '/images/section4/enuba-section4.png',
+				path: '/images/section4/logo3.png',
 				width: '100px',
 				height: '77px',
 			},
