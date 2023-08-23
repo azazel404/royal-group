@@ -52,7 +52,7 @@ export default function Section2() {
 								<img src={'/images/detail-product/identity-logo1.png'} alt='identity-logo1' fill priority={true} />
 							</div>
 							<p className='text-[16px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] mt-2 font-bold tracking-tight text-white'>
-								Trustlink
+								TRUSTLINK
 							</p>
 							<p className='text-[14px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] text-white font-[200] mb-[26px] leading-[160%]'>
 								Trustlink strives to empower your organization to accelerate its business growth by simplifying your

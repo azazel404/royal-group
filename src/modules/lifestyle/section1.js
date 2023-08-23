@@ -25,10 +25,9 @@ export default function Section1() {
 						</div>
 						<div className='flex text-[12px] text-center md:text-[24px] lg:text-[24px] xl:text-[24px] 2xl:text-[24px]'>
 							<span className='text-white'>
-								We take part in digital transformation industry because it has become an integral part of our society,
-								driving innovation, enhancing efficiency, and transforming the way we live and work.It offers immense
-								potential for business to thrive, enables individuals to access new opportunities, and empowers
-								governments to deliver public services with more effect
+								As society evolves and personal aspirations shift, lifestyle becomes a dynamic canvas upon which
+								individuals paint their unique stories. We hope to cater to the diverse needs and preferences of
+								individuals seeking assistance, convenience, and enhancement in various aspects of their lives
 							</span>
 						</div>
 					</div>

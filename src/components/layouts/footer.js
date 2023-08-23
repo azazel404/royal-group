@@ -20,7 +20,8 @@ const Footer = () => {
 									⦁ EIGHTY EIGHT @KASABLANKA OFFICE TOWER, 3rd FLOOR UNIT B, JALAN CASABLANCA RAYA KAV 88.
 								</p> */}
 								<p className='text-[12px] md:text-[20px] lg:text-[20px] text-gray'>
-									EIGHTY EIGHT @KASABLANKA OFFICE TOWER, 28TH FLOOR, JALAN CASABLANCA RAYA KAV 88.
+									EightyEight@Kasablanka,Tower A,28th Floor,Unit G-H.Jl Raya Casablanca Kav.88, Menteng Dalam,South
+									Jakarta,12870 Indonesia.
 								</p>
 								{/* <nav className='mb-10 list-none'>
 									<li className='mt-3'>

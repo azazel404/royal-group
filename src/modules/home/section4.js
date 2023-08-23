@@ -82,7 +82,7 @@ export default function Section4() {
 		{
 			name: 'Lifestyle',
 			description:
-				'We hope to cater to individuals desire for personal expression, well being, and experience that enhance their quality of life as the lifestyle industry emerged as a dynamic and influential sector in our daily lives',
+				'As society evolves and personal aspirations shift, lifestyle becomes a dynamic canvas upon which individuals paint their unique stories. We hope to cater to the diverse needs and preferences of individuals seeking assistance, convenience, and enhancement in various aspects of their lives',
 			image: '/images/section4/lifestyle.png',
 			logo: {
 				path: '/images/section4/logo3.png',

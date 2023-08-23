@@ -5,7 +5,7 @@ const Meta = ({ data }) => {
 	const router = useRouter();
 
 	// let url = `${process.env.NEXT_PUBLIC_DOMAIN}${router.asPath}`;
-	let url = 'https://naturesgoldtoken.io';
+	let url = 'http://royalgroup.co.id/';
 	return (
 		<>
 			<Head>
@@ -14,7 +14,7 @@ const Meta = ({ data }) => {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<meta property='title' content={data.title} />
 				<meta property='description' name='description' content={data.description} />
-				<meta property='author' content='naturesgoldtoken.io' />
+				<meta property='author' content='royalgroup.co.id' />
 				{/* facebook */}
 				<meta property='og:url' content={url} />
 				<meta property='og:type' content='website' />
